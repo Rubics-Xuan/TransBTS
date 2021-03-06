@@ -12,3 +12,6 @@ Architecture of 3D TransBTS.
 - pickle
 - nibabel
 
+## Data preprocess
+After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and realize date normalization.
+'python preprocess.py'
