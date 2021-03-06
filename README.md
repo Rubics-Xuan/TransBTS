@@ -14,4 +14,19 @@ Architecture of 3D TransBTS.
 
 ## Data preprocess
 After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and realize date normalization.
-'python preprocess.py'
+
+`python3 preprocess.py`
+
+## Training
+Run the training script on BraTS dataset. Distributed training is available for training the proposed TransBTS, where --nproc_per_node decides the numer of gpus and --master_port implys the port number.
+`python3 -m torch.distributed.launch --nproc_per_node=4 --master_port 20003 train.py`
+
+## Testing 
+If  you want to test the model which has been trained on the BraTS dataset, run the testing script as following.
+`python3 test.py`
+After the testing process stops, you can upload the submission file to [here](https://ipp.cbica.upenn.edu/) for the final Dice_scores.
+
+## Acknowledgement
+[setr-pytorch](https://github.com/gupta-abhay/setr-pytorch)
+
+## Citation
