@@ -29,6 +29,11 @@ If  you want to test the model which has been trained on the BraTS dataset, run 
 
 After the testing process stops, you can upload the submission file to [here](https://ipp.cbica.upenn.edu/) for the final Dice_scores.
 
+## Visual comparison
+Here are some samples from BraTS 2019 dataset for visual comparison between our proposed TransBTS with other SOTA methods.
+
+![visual_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/visual_comparison.PNG "visual_comparison")
+
 ## Acknowledgement
 [setr-pytorch](https://github.com/gupta-abhay/setr-pytorch)
 
