@@ -6,8 +6,8 @@ This repo is the official implementation for TransBTS: Multimodal Brain Tumor Se
 Architecture of 3D TransBTS.
 
 ## Requirements
-- pytorch 1.6.0
 - python 3.7
+- pytorch 1.6.0
 - torchvision 0.7.0
 - pickle
 - nibabel
@@ -19,11 +19,14 @@ After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data pr
 
 ## Training
 Run the training script on BraTS dataset. Distributed training is available for training the proposed TransBTS, where --nproc_per_node decides the numer of gpus and --master_port implys the port number.
+
 `python3 -m torch.distributed.launch --nproc_per_node=4 --master_port 20003 train.py`
 
 ## Testing 
 If  you want to test the model which has been trained on the BraTS dataset, run the testing script as following.
+
 `python3 test.py`
+
 After the testing process stops, you can upload the submission file to [here](https://ipp.cbica.upenn.edu/) for the final Dice_scores.
 
 ## Acknowledgement
