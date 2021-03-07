@@ -35,11 +35,6 @@ Quantitive comparison of performance on BraTS2019 validation set between our pro
 
 ![quantitive_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/quantitive_comparison.PNG "quantitive_comparison")
 
-Model	Params (M)	FLOPs (G)	Dice_ET (%)	Dice_WT (%)	Dice_TC (%)
-0.75x MFNet	1.81	13.36	79.34	90.22	84.25
-MFNet	3.19	20.61	79.91	90.43	84.61
-DMFNet	3.88	27.04	80.12	90.62	84.54
-
 ## Visual comparison
 Here are some samples from BraTS 2019 dataset for visual comparison between our proposed TransBTS with other SOTA methods.
 
