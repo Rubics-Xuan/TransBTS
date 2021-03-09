@@ -40,8 +40,15 @@ Here are some samples from BraTS 2019 dataset for visual comparison between our 
 
 ![visual_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/visual_comparison.PNG "visual_comparison")
 
-## Acknowledgement
-[setr-pytorch](https://github.com/gupta-abhay/setr-pytorch)
-
 ## Citation
+
+@article{chen2021transunet,
+  title={TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation},
+  author={Chen, Jieneng and Lu, Yongyi and Yu, Qihang and Luo, Xiangde and Adeli, Ehsan and Wang, Yan and Lu, Le and Yuille, Alan L., and Zhou, Yuyin},
+  journal={arXiv preprint arXiv:2102.04306},
+  year={2021}
+}
+
+## Reference
+[setr-pytorch](https://github.com/gupta-abhay/setr-pytorch)
 
