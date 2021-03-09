@@ -50,8 +50,8 @@ Here are some samples from BraTS 2019 dataset for visual comparison between our 
 }
 ```
 ## Reference
-[setr-pytorch](https://github.com/gupta-abhay/setr-pytorch)
+1.[setr-pytorch](https://github.com/gupta-abhay/setr-pytorch)
 
-[BraTS2017](https://github.com/MIC-DKFZ/BraTS2017)
+2.[BraTS2017](https://github.com/MIC-DKFZ/BraTS2017)
 
 
