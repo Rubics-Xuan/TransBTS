@@ -349,7 +349,7 @@ if __name__ == '__main__':
         os.environ['CUDA_VISIBLE_DEVICES'] = '0'
         cuda0 = torch.device('cuda:0')
         x = torch.rand((1, 4, 128, 128, 128), device=cuda0)
-        _, model = SETR_PUP_L(dataset='brats', _conv_repr=True, _pe_type="learned")
+        _, model = TransBTS(dataset='brats', _conv_repr=True, _pe_type="learned")
         model.cuda()
         y = model(x)
         print(y.shape)
