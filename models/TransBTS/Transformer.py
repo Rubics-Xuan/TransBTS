@@ -30,7 +30,7 @@ class SelfAttention(nn.Module):
         )  # make torchscript happy (cannot use tensor as tuple)
 
         attn = (q @ k.transpose(-2, -1)) * self.scale
-        attn = attn.softmax(dim=-1)#在N这一维计算patch之间的相关性，归一化到0-1
+        attn = attn.softmax(dim=-1)
         attn = self.attn_drop(attn)
 
         x = (attn @ v).transpose(1, 2).reshape(B, N, C)
