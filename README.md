@@ -41,6 +41,7 @@ Here are some samples from BraTS 2019 dataset for visual comparison between our 
 ![visual_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/visual_comparison.PNG "visual_comparison")
 
 ## Citation
+If you use our code or model in your work or find it is helpful, please cite the paper:
 ```
 @inproceedings{wang2021transbts,
   title={TransBTS: Multimodal Brain Tumor Segmentation Using Transformer},  
