@@ -45,7 +45,7 @@ Here are some samples from BraTS 2019 dataset for visual comparison between our 
 @article{wang2021transbts,
   title={TransBTS: Multimodal Brain Tumor Segmentation Using Transformer},  
   author={Wang, Wenxuan and Chen, Chen and Ding, Meng and Li, Jiangyun and Yu, Hong and Zha, Sen},
-  journal={arXiv preprint arXiv:2103.04430},
+  booktitle={International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
   year={2021}
 }
 ```
