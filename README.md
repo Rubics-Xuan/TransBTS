@@ -1,4 +1,4 @@
-# TransBTS: Multimodal Brain Tumor Segmentation Using Transformer
+# TransBTS: Multimodal Brain Tumor Segmentation Using Transformer（MICCAI2021）
 This repo is the official implementation for [TransBTS: Multimodal Brain Tumor Segmentation Using Transformer](https://arxiv.org/pdf/2103.04430.pdf). The multimodal brain tumor dataset (BraTS 2019) could be acquired from [here](https://ipp.cbica.upenn.edu/).
 
 ## TransBTS
