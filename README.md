@@ -31,7 +31,7 @@ After the testing process stops, you can upload the submission file to [here](ht
 
 ## Quantitive comparison of performance
 
-Quantitive comparison of performance on BraTS2019 validation set between our proposed TransBTS with other SOTA methods.
+Quantitive comparison of performance on BraTS2019 validation set as well as BraTS2020 validation set between our proposed TransBTS with other SOTA methods.
 
 ![quantitive_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/quantitive_comparison.PNG "quantitive_comparison")
 
