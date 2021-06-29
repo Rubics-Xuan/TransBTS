@@ -71,7 +71,7 @@ class TransformerBTS(nn.Module):
                 padding=1
             )
 
-        self.Unet = Unet(in_channels=4, base_channels=16, num_classes=4)
+        self.Unet = Unet(in_channels=self.num_channels, base_channels=16, num_classes=4)
         self.bn = nn.BatchNorm3d(128)
         self.relu = nn.ReLU(inplace=True)
 
@@ -198,7 +198,7 @@ class BTS(TransformerBTS):
         self.DeUp2 = DeUp_Cat(in_channels=self.embedding_dim//16, out_channels=self.embedding_dim//32)
         self.DeBlock2 = DeBlock(in_channels=self.embedding_dim//32)
 
-        self.endconv = nn.Conv3d(self.embedding_dim // 32, 4, kernel_size=1)
+        self.endconv = nn.Conv3d(self.embedding_dim // 32, self.num_classes, kernel_size=1)
 
 
     def decode(self, x1_1, x2_1, x3_1, x, intmd_x, intmd_layers=[1, 2, 3, 4]):
