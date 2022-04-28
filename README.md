@@ -1,4 +1,4 @@
-# TransBTS（Accepted by MICCAI2021）& TransBTSV2
+# TransBTS（Accepted by MICCAI2021）& TransBTSV2 (Recently Updated)
 
 This repo is the official implementation for: 
 1) [TransBTS: Multimodal Brain Tumor Segmentation Using Transformer](https://arxiv.org/pdf/2103.04430.pdf). 
@@ -12,14 +12,14 @@ This repo is the official implementation for:
 - pickle
 - nibabel
 
-## Data Acquirement
+## Data Acquisition
 - The multimodal brain tumor datasets (**BraTS 2019** & **BraTS 2020**) could be acquired from [here](https://ipp.cbica.upenn.edu/).
 
 - The liver tumor dataset **LiTS 2017** could be acquired from [here](https://competitions.codalab.org/competitions/17094#participate-get-data).
 
 - The kidney tumor dataset **KiTS 2019** could be acquired from [here](https://kits19.grand-challenge.org/data/).
 
-## Data preprocess
+## Data Preprocess (BraTS 2019 & BraTS 2020)
 After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and realize date normalization.
 
 `python3 preprocess.py`
