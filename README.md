@@ -1,9 +1,14 @@
-# TransBTS: Multimodal Brain Tumor Segmentation Using Transformer（MICCAI2021）
-This repo is the official implementation for [TransBTS: Multimodal Brain Tumor Segmentation Using Transformer](https://arxiv.org/pdf/2103.04430.pdf). The multimodal brain tumor datasets (BraTS 2019 & BraTS 2020) could be acquired from [here](https://ipp.cbica.upenn.edu/).
+# TransBTS: Multimodal Brain Tumor Segmentation Using Transformer（Accepted by MICCAI2021）
+# TransBTSV2: Towards Better and More Efficient Volumetric Segmentation of Medical Images
 
-## TransBTS
-![TransBTS](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/TransBTS.PNG "TransBTS")
-Architecture of 3D TransBTS.
+This repo is the official implementation for: 
+1) [TransBTS: Multimodal Brain Tumor Segmentation Using Transformer](https://arxiv.org/pdf/2103.04430.pdf). 
+2) [TransBTSV2: Towards Better and More Efficient Volumetric Segmentation of Medical Images](https://arxiv.org/abs/2201.12785). 
+
+## Requirements
+1)The multimodal brain tumor datasets (BraTS 2019 & BraTS 2020) could be acquired from [here](https://ipp.cbica.upenn.edu/).
+2)The liver tumor dataset LiTS 2017 could be acquired from [here](https://competitions.codalab.org/competitions/17094#participate-get-data).
+3)The kidney tumor dataset KiTS 2019 could be acquired from [here](https://kits19.grand-challenge.org/data/).
 
 ## Requirements
 - python 3.7
@@ -41,7 +46,8 @@ Here are some samples from BraTS 2019 dataset for visual comparison between our 
 ![visual_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/visual_comparison.PNG "visual_comparison")
 
 ## Citation
-If you use our code or model in your work or find it is helpful, please cite the paper:
+If you use our code or models in your work or find it is helpful, please cite the corresponding paper:
+
 ```
 @inproceedings{wang2021transbts,
   title={TransBTS: Multimodal Brain Tumor Segmentation Using Transformer},  
@@ -50,6 +56,16 @@ If you use our code or model in your work or find it is helpful, please cite the
   year={2021}
 }
 ```
+
+```
+@article{li2022transbtsv2,
+  title={TransBTSV2: Wider Instead of Deeper Transformer for Medical Image Segmentation},
+  author={Li, Jiangyun and Wang, Wenxuan and Chen, Chen and Zhang, Tianxiang and Zha, Sen and Yu, Hong and Wang, Jing},
+  journal={arXiv preprint arXiv:2201.12785},
+  year={2022}
+}
+```
+
 ## Reference
 1.[setr-pytorch](https://github.com/gupta-abhay/setr-pytorch)
 
