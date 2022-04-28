@@ -1,14 +1,9 @@
-# TransBTS: Multimodal Brain Tumor Segmentation Using Transformer（Accepted by MICCAI2021）
-# TransBTSV2: Towards Better and More Efficient Volumetric Segmentation of Medical Images
+# TransBTS（Accepted by MICCAI2021）& TransBTSV2
 
 This repo is the official implementation for: 
 1) [TransBTS: Multimodal Brain Tumor Segmentation Using Transformer](https://arxiv.org/pdf/2103.04430.pdf). 
-2) [TransBTSV2: Towards Better and More Efficient Volumetric Segmentation of Medical Images](https://arxiv.org/abs/2201.12785). 
 
-## Requirements
-1)The multimodal brain tumor datasets (BraTS 2019 & BraTS 2020) could be acquired from [here](https://ipp.cbica.upenn.edu/).
-2)The liver tumor dataset LiTS 2017 could be acquired from [here](https://competitions.codalab.org/competitions/17094#participate-get-data).
-3)The kidney tumor dataset KiTS 2019 could be acquired from [here](https://kits19.grand-challenge.org/data/).
+2) [TransBTSV2: Towards Better and More Efficient Volumetric Segmentation of Medical Images](https://arxiv.org/abs/2201.12785). 
 
 ## Requirements
 - python 3.7
@@ -16,6 +11,13 @@ This repo is the official implementation for:
 - torchvision 0.7.0
 - pickle
 - nibabel
+
+## Data Acquirement
+- The multimodal brain tumor datasets (**BraTS 2019** & **BraTS 2020**) could be acquired from [here](https://ipp.cbica.upenn.edu/).
+
+- The liver tumor dataset **LiTS 2017** could be acquired from [here](https://competitions.codalab.org/competitions/17094#participate-get-data).
+
+- The kidney tumor dataset **KiTS 2019** could be acquired from [here](https://kits19.grand-challenge.org/data/).
 
 ## Data preprocess
 After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and realize date normalization.
@@ -34,20 +36,10 @@ If  you want to test the model which has been trained on the BraTS dataset, run 
 
 After the testing process stops, you can upload the submission file to [here](https://ipp.cbica.upenn.edu/) for the final Dice_scores.
 
-## Quantitive comparison of performance
-
-Quantitive comparison of performance on BraTS2019 validation set as well as BraTS2020 validation set between our proposed TransBTS with other SOTA methods.
-
-![quantitive_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/quantitive_comparison.PNG "quantitive_comparison")
-
-## Visual comparison
-Here are some samples from BraTS 2019 dataset for visual comparison between our proposed TransBTS with other SOTA methods.
-
-![visual_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/visual_comparison.PNG "visual_comparison")
-
 ## Citation
 If you use our code or models in your work or find it is helpful, please cite the corresponding paper:
 
+- **TransBTS**:
 ```
 @inproceedings{wang2021transbts,
   title={TransBTS: Multimodal Brain Tumor Segmentation Using Transformer},  
@@ -57,6 +49,7 @@ If you use our code or models in your work or find it is helpful, please cite th
 }
 ```
 
+- **TransBTSV2**:
 ```
 @article{li2022transbtsv2,
   title={TransBTSV2: Wider Instead of Deeper Transformer for Medical Image Segmentation},
