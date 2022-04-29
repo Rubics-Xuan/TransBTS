@@ -1,19 +1,21 @@
 
 ## TransBTSV2
-![TransBTSV2: Towards Better and More Efficient Volumetric Segmentation of Medical Images](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/quantitive_comparison.PNG "quantitive_comparison_TransBTSV2"). 
+
 Architecture of our TransBTSV2.
+
+![TransBTSV2: Towards Better and More Efficient Volumetric Segmentation of Medical Images](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/architecture_TransBTSV2.PNG "architecture_TransBTSV2"). 
 
 ## Quantitive comparison of performance
 
 Quantitive comparison of performance on four benchmark datasets for medical image volumetric segmentation between our proposed TransBTS with other SOTA methods.
 
-![quantitive_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/quantitive_comparison.PNG "quantitive_comparison_TransBTSV2")
+![quantitive_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/quantitive_comparison_TransBTSV2.PNG "quantitive_comparison_TransBTSV2")
 
 ## Visual comparison
 
 Here are some samples from four benchmark datasets for visual comparison between our proposed TransBTS with other SOTA methods.
 
-![visual_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/visual_comparison.PNG "visual_comparison_TransBTSV2")
+![visual_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/visual_comparison_TransBTSV2.PNG "visual_comparison_TransBTSV2")
 
 ## Citation
 If you use our code or model in your work or find it is helpful, please cite the paper:
