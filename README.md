@@ -5,6 +5,8 @@ This repo is the official implementation for:
 
 2) [TransBTSV2: Towards Better and More Efficient Volumetric Segmentation of Medical Images](https://arxiv.org/abs/2201.12785). 
 
+The details of the our TransBTS and TransBTSV2 can be found at the models directory in this repo or in the original paper.
+
 ## Requirements
 - python 3.7
 - pytorch 1.6.0
