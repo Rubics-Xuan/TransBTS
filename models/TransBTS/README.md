@@ -10,6 +10,7 @@ Quantitive comparison of performance on BraTS2019 validation set as well as BraT
 ![quantitive_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/quantitive_comparison.PNG "quantitive_comparison")
 
 ## Visual comparison
+
 Here are some samples from BraTS 2019 dataset for visual comparison between our proposed TransBTS with other SOTA methods.
 
 ![visual_comparison](https://github.com/Wenxuan-1119/TransBTS/blob/main/figure/visual_comparison.PNG "visual_comparison")
