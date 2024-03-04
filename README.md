@@ -22,7 +22,7 @@ The details of the our TransBTS and TransBTSV2 can be found at the models direct
 - The kidney tumor dataset **KiTS 2019** could be acquired from [here](https://kits19.grand-challenge.org/data/).
 
 ## Data Preprocess (BraTS 2019 & BraTS 2020)
-After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and realize date normalization.
+After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and realize data normalization.
 
 `python3 preprocess.py`
 
