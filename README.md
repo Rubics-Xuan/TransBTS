@@ -44,10 +44,12 @@ If you use our code or models in your work or find it is helpful, please cite th
 - **TransBTS**:
 ```
 @inproceedings{wang2021transbts,
-  title={TransBTS: Multimodal Brain Tumor Segmentation Using Transformer},  
-  author={Wang, Wenxuan and Chen, Chen and Ding, Meng and Li, Jiangyun and Yu, Hong and Zha, Sen},
-  booktitle={International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
-  year={2021}
+  title={TransBTS: Multimodal Brain Tumor Segmentation Using Transformer},
+  author={Wang, Wenxuan and Chen, Chen and Ding, Meng and Yu, Hong and Zha, Sen and Li, Jiangyun},
+  booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2021: 24th International Conference, Strasbourg, France, September 27--October 1, 2021, Proceedings, Part I 24},
+  pages={109--119},
+  year={2021},
+  organization={Springer}
 }
 ```
 
